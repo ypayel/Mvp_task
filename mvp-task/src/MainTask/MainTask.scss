@@ -66,6 +66,20 @@
   font-size: 16px;
 }
 
+.meal-describe {
+  font-size: 18px;
+  
+}
+.meal-header {
+  font-size: 20px;
+  font-weight: 600;
+  color: #111827;
+  
+}
+.meals-header {
+  font-size: 22px;
+}
+
 .delete-button:hover {
   color: #b91c1c;
   transform: scale(1.1);
@@ -75,20 +89,23 @@
   background-color: #2563eb;
 }
 
-.meal-describe {
-  font-size: 18px;
-  
-}
-.meal-header {
-  font-size: 20px;
-  
-}
-.meals-header {
-  font-size: 22px;
+.meals-dish:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px #0000001a;
+  transition: all 0.2s ease-in-out;
 }
 
-@media screen and (max-width: 370px) {
-  .meal-describe {
+.meal-input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px #3b82f633;
+}
+
+@media screen and (max-width: 600px) {
+  .meals-container {
+    grid-template-columns: 1fr;
+  }
+   .meal-describe {
   font-size: 16px;
   
 }
