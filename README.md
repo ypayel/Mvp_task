@@ -58,3 +58,8 @@ Uruchom projekt:
 Aplikacja uruchomi się pod adresem:
 
 - http://localhost:5173/
+
+
+Autor 
+
+Artsiom Kukankou
