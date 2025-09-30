@@ -38,13 +38,11 @@ export const MainTask = () => {
           <h2 className="header-first">Healthy Meal Planner</h2>
           <h3 className="meals-header">Today's Meals</h3>
         </div>
-
-       
         <div className="meals-container">
           {meals.map((meal, index) => (
             <div className="meals-dish" key={index}>
               <div className="meal-header-row">
-                <h4 className="meal-header">{meal.title}</h4>
+                <h4 className="meal-header-third">{meal.title}</h4>
                 <button
                   className="delete-button"
                   onClick={() => handleDeleteMeal(index)}
@@ -56,8 +54,6 @@ export const MainTask = () => {
             </div>
           ))}
         </div>
-
-       
         <div className="form-container">
           <input
             type="text"
