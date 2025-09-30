@@ -41,20 +41,20 @@ Instalacja i uruchomienie
 
 Sklonuj repozytorium:
 
-git clone https://github.com/ypayel/Mvp_task
+- git clone https://github.com/ypayel/Mvp_task
 
 Przejdź do folderu projektu:
 
-cd mvp-task
+- cd mvp-task
 
 Zainstaluj zależności:
 
-npm install
+- npm install
 
 Uruchom projekt:
 
-npm run dev
+- npm run dev
 
 Aplikacja uruchomi się pod adresem:
 
-http://localhost:5173/
+- http://localhost:5173/
